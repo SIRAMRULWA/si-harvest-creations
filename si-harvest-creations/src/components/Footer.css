@@ -1,0 +1,83 @@
+/* src/components/Footer.css */
+
+.footer-gradient {
+  background: linear-gradient(to right, #111827, #1e3a8a, #111827);
+  color: #d1d5db; /* Light gray for text */
+  padding: 2rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+}
+
+.footer-gradient .max-w-7xl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-gradient h3 {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.footer-gradient p {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.footer-gradient a {
+  color: #d1d5db;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-gradient a:hover {
+  color: #3b82f6; /* Light blue on hover */
+}
+
+.footer-gradient a:hover.icon-link {
+  color: #ec4899; /* Pink hover for Instagram */
+}
+
+.footer-gradient .flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-gradient .flex-wrap > div,
+.footer-gradient .flex-wrap > a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-gradient .icon-link {
+  transform: scale(1);
+}
+
+.footer-gradient .icon-link:hover {
+  transform: scale(1.1);
+}
+
+.footer-gradient .separator {
+  color: #6b7280;
+  margin: 0 0.25rem;
+}
+
+.footer-gradient .social-icons a {
+  color: #d1d5db;
+  transition: color 0.3s ease, transform 0.3s ease;
+  transform: translateY(0);
+}
+
+.footer-gradient .social-icons a:hover {
+  transform: translateY(-3px);
+  color: #3b82f6;
+}
+
+.footer-gradient .social-icons a.icon-instagram:hover {
+  color: #ec4899;
+}
